@@ -4,12 +4,13 @@
     padding:10px;
 }
 .one{
-    color:rgb(39, 141, 39);
-    font-size: 100px;
+    color:darkblue;
+    font-size: 80px;
     font-weight: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .two{
-    color:rgb(100, 151, 23);
+    color:cornflowerblue;
     font-family: cursive;
+    font-size: 50px;
 }

@@ -1,3 +1,11 @@
 .shop-container{
     display: flex;
+    
+}
+.course-container{
+    border-right: 1px solid gray;
+}
+.cart-container{
+    margin-left: 50%;
+    margin-top: 10px;
 }

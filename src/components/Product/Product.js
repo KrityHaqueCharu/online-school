@@ -3,7 +3,7 @@ import './Product.css';
 import { Button} from 'react-bootstrap';
 
 const Product = (props) => {
-    const {name,price}=props.product;
+    const {name,price,Trainer,Duration,Text}=props.product;
     return (
         <div className="product">
         <div className="one container col-md-2">
@@ -11,9 +11,11 @@ const Product = (props) => {
         </div>
         <div className="two container col-md-7">
             <p>
-                this is the course for your absolute success.you will become an expert on this after finishing the course.
-                <h4>${price}</h4>
-        <Button onClick={()=>props.addproduct(props.product)} variant="warning">Enroll now</Button>{' '}
+                <h3>Learn {Text} with the specialist</h3>
+                <h5>${price}</h5>
+                <p><h5>By {Trainer}</h5></p>
+                <p><h6>Duration: {Duration}hr</h6></p>
+        <Button onClick={()=>props.addproduct(props.product)} variant="warning">Buy now</Button>{' '}
             </p>
         </div>
 

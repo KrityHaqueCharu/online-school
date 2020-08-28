@@ -1,6 +1,9 @@
 .check{
-    background-color:purple;
+    background-color:yellow;
     border-radius: 7px 7px;
     border: none;
-    padding:3%;
+    padding:5%;
+}
+.check:hover{
+    background-color:greenyellow;
 }
